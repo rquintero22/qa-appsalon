@@ -1,0 +1,22 @@
+{
+    "name": "rquintero/app-salon-mvc",
+    "description": "Proyecto App Salon",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\":"./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Raymond",
+            "email": "quinteroaparicio@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

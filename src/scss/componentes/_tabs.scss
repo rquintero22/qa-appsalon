@@ -1,0 +1,32 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.tabs {
+
+    @include m.tablet {
+        display: flex;
+    }
+
+    button {
+        background-color: v.$azul;
+        border: none;
+        color: v.$blanco;
+        display: block;
+        font-weight: v.$bold;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        text-transform: uppercase;
+        transition: background-color 300ms ease;
+        width: 100%;
+
+        &:hover {
+            background-color: darken($color: v.$azul, $amount: 10%);
+            cursor: pointer;
+        }&.actual {
+            background-color: v.$blanco;
+            color: v.$azul;
+        }
+
+        
+    }
+}
