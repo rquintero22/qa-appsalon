@@ -12,11 +12,12 @@
     },
     "authors": [
         {
-            "name": "Raymond",
+            "name": "Raymond Quintero",
             "email": "quinteroaparicio@gmail.com"
         }
     ],
     "require": {
-        "phpmailer/phpmailer": "^6.9"
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
     }
 }
